@@ -1,4 +1,3 @@
-console.log('Code');
 
 function search() {
     var search = document.getElementById("msearch");
