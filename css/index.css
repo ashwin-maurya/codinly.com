@@ -10,7 +10,7 @@
 
 body {
     font-family: Arial;
-    background: #ffffff;
+    background-color: #e3e3e3;
     padding: 0;
     margin: 0;
 }
@@ -106,6 +106,7 @@ body {
 
 .topnav1 .midnav #display {
     display: flex;
+    background-color: white;
 }
 
 #logo {
@@ -365,6 +366,7 @@ body {
 #myBtn {
     display: none;
     position: fixed;
+    width: 40px;
     font-weight: 600;
     bottom: 0;
     right: 0;
@@ -391,6 +393,11 @@ body {
         width: 100%;
     }
     .topnav1 .midnav #display {
-        display: none;
+        display: flex;
+        position: absolute;
+        right: 0;
+    }
+    .topnav1 .midnav a {
+        padding: 15px 20px;
     }
 }
